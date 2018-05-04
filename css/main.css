@@ -385,10 +385,12 @@ background:rgba(0, 0, 0, 0) linear-gradient(135deg, #8ec64e 0%, #47b475 100%);
 
 /* #hero-area  */
 .animated .logo-2 {
-    display: block!important;
+    display: inline-block!important;
+		float: left!important;
 }
 .logo-2 {
     display: none!important;
+	float: left!important;
 }
 .animated .logo-1 {
     display: none!important;
@@ -413,8 +415,17 @@ background:rgba(0, 0, 0, 0) linear-gradient(135deg, #8ec64e 0%, #47b475 100%);
     padding:10px;
 }
 
+.navbar{
+	margin-bottom:0;
+}
 
+.nav>li{
+	display:inline-block !important;
+}
 
+.navbar-nav{
+	margin:0;
+}
 
 .navbar-default {
     background-color: transparent;
@@ -504,6 +515,7 @@ background:rgba(0, 0, 0, 0) linear-gradient(135deg, #8ec64e 0%, #47b475 100%);
 
 #top-nav{
 	font-weight:bold;
+	text-align:right;
 }
 
 #hero-area .block .counter h2 {
@@ -755,7 +767,7 @@ background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#8ec6
 #call-to-action .block p {
     font-size: 15px;
     padding-right: 30px;
-    color: #9F9F9F;
+    color: #eaeaea;
 }
 #call-to-action .block input {
     width: 40%;
