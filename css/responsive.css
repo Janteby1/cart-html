@@ -69,11 +69,11 @@ px      68    160    252    */
     margin-bottom: 20px;
   }
   #service .heading p {
-    font-size: 15px;
+    font-size: 16px;
     padding: 0px 5px;
   }
   #about .heading p {
-    font-size: 15px;
+    font-size: 16px;
     padding: 0px 5px;
   }
   #about .bottom-text {
@@ -86,11 +86,11 @@ px      68    160    252    */
     font-size: 20px;
   }
   #call-to-action .block p {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     padding-right: 0px;
   }
   #contact .heading p {
-    font-size: 15px;
+    font-size: 16px;
   }
   #contact .block input {
     width: 100%;
